@@ -284,14 +284,17 @@ h6 {
     text-align: justify;
 }
 
-.outer-div {
-    /* border: solid 1px #9CA3AF;
-    border-radius: 0.2rem; */
-    margin: 1rem;
-    max-width: 500px;
+hr {
+    margin: 1rem 0;
 }
 
-.gist {
+.cover {
+    border: solid 1px #9CA3AF;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+
+.outer-div {
     margin: 1rem;
     max-width: 500px;
 }
@@ -309,10 +312,6 @@ h6 {
 
 .alert>p {
     padding-left: 1rem;
-}
-
-.alert-information {
-    margin
 }
 
 .alert-info {
