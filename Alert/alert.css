@@ -1,13 +1,11 @@
 @import url("/Util/util.css");
 
-.cover {
-    border: solid 1px #9CA3AF;
-    border-radius: 0.2rem;
-    padding: 1rem;
+.sub-head {
+    max-width: 800px;
 }
 
 .outer-div {
-    margin: 1rem;
+    margin: 1rem 0;
     max-width: 500px;
 }
 

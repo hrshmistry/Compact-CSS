@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/Alert/alert.css">
 </head>
 
 <body>
@@ -27,8 +28,9 @@
             eveniet neque?</nav>
         <aside class="aside">
             <div>
-                <ul>
-                    <li>Alert</li>
+                <h2 class="comp">Components</h2>
+                <ul class="comp-list">
+                    <li><a href="#alert">Alert</a></li>
                     <li>Avatar</li>
                     <li>Badge</li>
                     <li>Button</li>
@@ -40,9 +42,78 @@
                 </ul>
             </div>
         </aside>
-        <main class="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat asperiores,
-            doloribus libero dolores, ullam ducimus, harum suscipit magnam beatae vel laborum rem id. Sed voluptates ea
-            nesciunt fuga voluptatibus!</main>
+        <main class="main">
+            <div style="display: flex; flex-direction: column;">
+
+                <div id="alert">
+                    <h1>Alert</h1>
+                    <div>Alerts are used to communicate a state that affects a system, feature or
+                        page.</div>
+                    <hr>
+
+                    <div class="pl-4">
+                        <h2 class="mb-2">Simple Alert</h2>
+
+                        <div class="outer-div">
+                            <div class="alert alert-danger">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <p>There was an error processing your request.</p>
+                            </div>
+                            <div class="alert alert-success">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Data uploaded to the server. Fire on!</p>
+                            </div>
+                            <div class="alert alert-warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p>Seems your account is about to expire.</p>
+                            </div>
+                            <div class="alert alert-info">
+                                <i class="fas fa-info-circle"></i>
+                                <p>Event is going live on July 30th. Get ready!</p>
+                            </div>
+                        </div>
+
+                        <div class="outer-div">
+                            <script src="https://gist.github.com/hrshmistry/33ade28c0651aedf63b33c22b85eb333.js">
+                            </script>
+                        </div>
+
+                        <h2 class="mt-3 mb-2">Outline Alert</h2>
+
+                        <div class="outer-div">
+                            <div class="alert outline-alert-danger">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <p>There was an error processing your request.</p>
+                            </div>
+                            <div class="alert outline-alert-success">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Data uploaded to the server. Fire on!</p>
+                            </div>
+                            <div class="alert outline-alert-warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p>Seems your account is about to expire.</p>
+                            </div>
+                            <div class="alert outline-alert-info">
+                                <i class="fas fa-info-circle"></i>
+                                <p>Event is going live on July 30th. Get ready!</p>
+                            </div>
+                        </div>
+
+                        <div class="outer-div">
+                            <script src="https://gist.github.com/hrshmistry/6e2db63f5a209be952b51acc1085e0ff.js">
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="button">
+                    <h1>Button</h1>
+                    <div class="sub-head">The Button component is used to trigger an action or event, such as submitting a form, opening a dialog, canceling an action, or performing a delete operation.</div>
+                    <hr>
+                </div>
+
+            </div>
+        </main>
     </div>
 </body>
 
