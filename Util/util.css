@@ -3,20 +3,19 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background: white;
     color: var(--social-handler);
-
 }
 
 :root {
     --primary-color: #A78BFA;
 
-    --social-handler: #4B5563;
+    --social-handler: #374151;
     
     --aside-hr: #d9d9d9;
 
