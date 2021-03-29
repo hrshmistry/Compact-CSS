@@ -72,11 +72,15 @@
     margin: 0.5rem;
 }
 
+.list-inline .link {
+    color: #A78BFA;
+}
+
 .link {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
-    color: #A78BFA;
+    color: black;
 }
 
 /* Aside */

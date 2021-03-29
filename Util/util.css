@@ -287,3 +287,12 @@ h6 {
 hr {
     margin: 1rem 0;
 }
+
+.outer-div {
+    margin: 1rem 0;
+    max-width: 500px;
+}
+
+.flex {
+    display: flex;
+}
