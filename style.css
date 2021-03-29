@@ -11,17 +11,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: var(--scrollbar-track);
+    background: var(--badge-border);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb);
+    background: var(--badge-border);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--scrollbar-thumb-hover);
+    background: var(--badge-border);
 }
 
 /* Overall layout of Documentation site */
@@ -39,25 +39,29 @@
 
     grid-template-columns: 20% auto;
     grid-template-rows: 10% auto;
+
+    margin: auto;
+    max-width: 1200px;
+    align-content: center;
 }
 
 .nav {
     grid-area: nav;
-    border: solid 1px var(--grid-border);
+    /* border: solid 1px var(--grid-border); */
     padding: 1rem;
     /* overflow: auto; */
 }
 
 .aside {
     grid-area: aside;
-    border: solid 1px var(--grid-border);
+    /* border: solid 1px var(--grid-border); */
     padding: 0 1rem;
     overflow: auto;
 }
 
 .main {
     grid-area: main;
-    border: solid 1px var(--grid-border);
+    /* border: solid 1px var(--grid-border); */
     padding: 1rem;
     overflow: auto;
 }
@@ -69,6 +73,30 @@
     align-items: center;
 }
 
+/* .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+} */
+
+/* .brand-compact {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 100px auto;
+    max-width: 500px;
+    font-size: 10rem;
+} */
+
+/* .brand-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10rem;
+} */
+
 .brand {
     display: flex;
     align-items: center;
@@ -76,12 +104,12 @@
 }
 
 .brand .fas {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .brand-name {
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--primary-color);
     font-size: 1.5rem;
     margin: 0 1rem;
@@ -101,9 +129,9 @@
     color: var(--social-handler);
 }
 
-.fab {
+/* .fab {
     font-size: 1.5rem;
-}
+} */
 
 .link {
     text-decoration: none;
@@ -137,7 +165,27 @@
 .main-block {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    max-width: 700px;
+    /* position: relative; */
 }
+
+/* .floating-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 12rem;
+    width: 60px;
+    height: 60px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-btn i {
+    font-size: 2.5rem;
+} */
 
 .brand-spell {
     font-weight: 600;
@@ -160,14 +208,12 @@
         height: 100vh;
         display: grid;
         grid-template-areas:
-            "nav nav nav"
-            "main main main"
-            "main main main"
-            "main main main"
+            "nav"
+            "main"
 
         ;
 
-        grid-template-columns: auto;
-        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 90%;
     }
 }

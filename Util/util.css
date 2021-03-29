@@ -3,18 +3,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background: white;
+    color: var(--social-handler);
 
 }
 
 :root {
     --primary-color: #A78BFA;
 
-    --social-handler: #374151;
+    --social-handler: #4B5563;
     
     --aside-hr: #d9d9d9;
 
@@ -286,6 +288,11 @@ h6 {
     margin-bottom: 0 4rem;
 }
 
+/* Margin auto */
+.ma {
+    margin: auto;
+}
+
 /* Alignment Classes */
 .text-left {
     text-align: left;
@@ -324,5 +331,9 @@ hr {
 
 .flex {
     display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
