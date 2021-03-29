@@ -11,6 +11,25 @@ body {
 
 }
 
+:root {
+    --primary-color: #A78BFA;
+
+    --social-handler: #374151;
+    
+    --aside-hr: #d9d9d9;
+
+    --badge-border: #ffffff;
+    --badge-online: #36CC00;
+    --badge-dnd: #ff0000;
+    --badge-idle: #FAA61A;
+
+    --grid-border: #374151;
+
+    --scrollbar-track: #F3F4F6;
+    --scrollbar-thumb: #E5E7EB;
+    --scrollbar-thumb-hover: #D1D5DB;
+}
+
 /* Headings */
 h1,
 h2,
@@ -293,6 +312,17 @@ hr {
     max-width: 500px;
 }
 
+.extra-outer-div {
+    margin: 1rem 0;
+    max-width: 600px;
+}
+
+.sub-head {
+    max-width: 800px;
+    font-size: 1rem;
+}
+
 .flex {
     display: flex;
 }
+

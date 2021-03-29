@@ -1,14 +1,5 @@
 @import url("/Util/util.css");
 
-.sub-head {
-    max-width: 800px;
-}
-
-.outer-div {
-    margin: 1rem 0;
-    max-width: 500px;
-}
-
 /* Alert */
 .alert {
     display: flex;

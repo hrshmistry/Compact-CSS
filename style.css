@@ -1,4 +1,28 @@
 @import url("/Util/util.css");
+@import url("/Alert/alert.css");
+@import url("/Avatar/avatar.css");
+@import url("/Button/button.css");
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
 
 /* Overall layout of Documentation site */
 .doc-layout {
@@ -19,21 +43,21 @@
 
 .nav {
     grid-area: nav;
-    border: solid 1px black;
+    border: solid 1px var(--grid-border);
     padding: 1rem;
     /* overflow: auto; */
 }
 
 .aside {
     grid-area: aside;
-    border: solid 1px black;
+    border: solid 1px var(--grid-border);
     padding: 0 1rem;
     overflow: auto;
 }
 
 .main {
     grid-area: main;
-    border: solid 1px black;
+    border: solid 1px var(--grid-border);
     padding: 1rem;
     overflow: auto;
 }
@@ -50,6 +74,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .brand .fas {
     font-size: 2.5rem;
 }
@@ -57,7 +82,7 @@
 .brand-name {
     text-decoration: none;
     font-weight: 800;
-    color: #A78BFA;
+    color: var(--primary-color);
     font-size: 1.5rem;
     margin: 0 1rem;
 }
@@ -73,21 +98,25 @@
 }
 
 .list-inline .link {
-    color: #A78BFA;
+    color: var(--social-handler);
+}
+
+.fab {
+    font-size: 1.5rem;
 }
 
 .link {
     text-decoration: none;
     font-weight: bold;
     font-size: large;
-    color: black;
+    color: var(--social-handler);
 }
 
 /* Aside */
 .comp {
     padding: 1rem 0;
     font-weight: 700;
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid var(--aside-hr);
     margin-bottom: .5rem;
 }
 
@@ -104,3 +133,41 @@
     padding: 0.5rem;
 }
 
+/* Main */
+.main-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-spell {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#installation {
+    height: 726px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .doc-layout {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+            "nav nav nav"
+            "main main main"
+            "main main main"
+            "main main main"
+
+        ;
+
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}

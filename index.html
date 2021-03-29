@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compact CSS</title>
     <link rel="shortcut icon" type="image/jpg" href="/Assets/Compact-CSS_favicon.png">
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/Alert/alert.css">
     <link rel="stylesheet" href="/Button/button.css">
     <link rel="stylesheet" href="/Avatar/avatar.css">
@@ -26,13 +26,13 @@
 
             <ul class="list-inline">
                 <li>
-                    <a class="link" href="">
-                        <i class="fab fa-2x fa-github"></i>
+                    <a class="link" href="https://github.com/hrshmistry/Compact-CSS">
+                        <i class="fab fa-github"></i>
                     </a>
                 </li>
                 <li>
-                    <a class="link" href="">
-                        <i class="fab fa-2x fa-twitter"></i>
+                    <a class="link" href="https://twitter.com/hrshmistry">
+                        <i class="fab fa-twitter"></i>
                     </a>
                 </li>
             </ul>
@@ -41,11 +41,16 @@
 
         <aside class="aside">
 
+            <h2 class="comp">Getting Started</h2>
+            <ul class="comp-list">
+                <li><a class="link" href="#installation">Installation</a></li>
+            </ul>
+
             <h2 class="comp">Components</h2>
             <ul class="comp-list">
                 <li><a class="link" href="#alert">Alert</a></li>
                 <li><a class="link" href="#avatar">Avatar</a></li>
-                <li><a class="link" href="#bagge">Badge</a></li>
+                <li><a class="link" href="#badge">Badge</a></li>
                 <li><a class="link" href="#button">Button</a></li>
                 <li><a class="link" href="#card">Card</a></li>
                 <li><a class="link" href="#image">Image</a></li>
@@ -57,11 +62,31 @@
         </aside>
 
         <main class="main">
-            <div style="display: flex; flex-direction: column;">
+            <div class="main-block"">
+
+                <!-- Getting Started -->
+                <div id="installation">
+                    <h1 class="mb-3">Getting Started</h1>
+                    <h2 class="mb-2">Installation</h2>
+                    <div class="sub-head">Copy-paste the below stylesheet into your head element before all other
+                        stylesheets.
+                        <!-- <span class="brand-spell">Compact CSS.</span> -->
+                    </div>
+
+                    <div class="extra-outer-div">
+                        <script src="https://gist.github.com/hrshmistry/a59ace1977f1a232d4349c7146c6714f.js"></script>
+                    </div>
+
+                    <h2 class="mt-4 mb-2">Contributing</h2>
+                    <div class="sub-head">Please visit our <span><a href="https://github.com/hrshmistry/Compact-CSS" class="brand-spell">GitHub Repository</a></span> to learn how you can contribute to this project.<br><span style="color: #9CA3AF;">(contribution guidelines will be listed)</span>
+                    <br><br> Any sort of Contribution is welcomed!
+                    </div>
+
+                </div>
 
                 <!-- Alert -->
                 <div id="alert">
-                    <h1>Alert</h1>
+                    <h1 class="mb-2">Alert</h1>
                     <div class="sub-head">Alerts are used to communicate a state that affects a system, feature or page.
                     </div>
                     <hr>
@@ -128,7 +153,7 @@
 
                 <!-- Avatar -->
                 <div id="avatar">
-                    <h1>Avatar</h1>
+                    <h1 class="mb-2">Avatar</h1>
                     <div class="sub-head">The Avatar component is used to represent a user, and displays the profile
                         picture,
                         initials or fallback icon.
@@ -192,7 +217,7 @@
 
                 <!-- Button -->
                 <div id="button">
-                    <h1>Button</h1>
+                    <h1 class="mb-2">Button</h1>
                     <div class="sub-head">The Button component is used to trigger an action or event, such as submitting
                         a form,
                         opening a dialog, canceling an action, or performing a delete operation.

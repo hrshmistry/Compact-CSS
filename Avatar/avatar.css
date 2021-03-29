@@ -44,8 +44,8 @@
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    border: solid 2px white;
-    background-color: #36CC00;
+    border: solid 2px var(--badge-border);
+    background-color: var(--badge-online);
     position: absolute;
     bottom: 0rem;
     left: 2.7rem;
@@ -55,8 +55,8 @@
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    border: solid 2px white;
-    background-color: #ff0000;
+    border: solid 2px var(--badge-border);
+    background-color: var(--badge-dnd);
     position: absolute;
     bottom: 0rem;
     left: 2.7rem;
@@ -66,8 +66,8 @@
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    border: solid 2px white;
-    background-color: #FAA61A;
+    border: solid 2px var(--badge-border);
+    background-color: var(--badge-idle);
     position: absolute;
     bottom: 0rem;
     left: 2.7rem;
