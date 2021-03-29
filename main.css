@@ -1,6 +1,6 @@
 @import url("/Util/util.css");
 
-.container {
+.doc-layout {
     width: 100%;
     height: 100vh;
     display: grid;
@@ -20,16 +20,14 @@
     grid-area: nav;
     border: solid 1px black;
     padding: 1rem;
-    overflow: auto;
-
+    /* overflow: auto; */
 }
 
 .aside {
     grid-area: aside;
     border: solid 1px black;
     padding: 0 1rem;
-    overflow: scroll;
-
+    overflow: auto;
 }
 
 .main {
@@ -40,7 +38,7 @@
 }
 
 .comp {
-    padding: 1rem;
+    padding: 1rem 0;
     font-weight: 700;
     border-bottom: 1px solid #d9d9d9;
     margin-bottom: .5rem;
@@ -57,4 +55,44 @@
 .comp-list>li {
     margin: 0.5rem 0;
     padding: 0.5rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand .fas {
+    font-size: 2.5rem;
+}
+
+.brand-name {
+    text-decoration: none;
+    font-weight: 800;
+    color: #A78BFA;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+.list-inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-inline li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: #A78BFA;
 }
