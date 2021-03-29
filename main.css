@@ -1,5 +1,6 @@
 @import url("/Util/util.css");
 
+/* Overall layout of Documentation site */
 .doc-layout {
     width: 100%;
     height: 100vh;
@@ -37,26 +38,7 @@
     overflow: auto;
 }
 
-.comp {
-    padding: 1rem 0;
-    font-weight: 700;
-    border-bottom: 1px solid #d9d9d9;
-    margin-bottom: .5rem;
-}
-
-.comp-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-weight: 600;
-}
-
-.comp-list>li {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-}
-
+/* Navigation */
 .nav {
     display: flex;
     justify-content: space-between;
@@ -96,3 +78,25 @@
     font-size: large;
     color: #A78BFA;
 }
+
+/* Aside */
+.comp {
+    padding: 1rem 0;
+    font-weight: 700;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: .5rem;
+}
+
+.comp-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 600;
+}
+
+.comp-list>li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
