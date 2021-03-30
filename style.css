@@ -1,4 +1,4 @@
-@import url("/Util/util.css");
+@import url("/Components/Util/util.css");
 
 body {
     border-top: solid 6px var(--primary-color);
