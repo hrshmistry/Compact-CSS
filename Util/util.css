@@ -1,4 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+@import url("/Alert/alert.css");
+@import url("/Avatar/avatar.css");
+@import url("/Button/button.css");
+@import url("/Badge/badge.css");
+@import url("/Card/card.css");
+@import url("/Card/card.css");
+
+/* Custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--badge-border);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--badge-border);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--badge-border);
+}
 
 * {
     margin: 0;
@@ -310,12 +337,13 @@ h6 {
 }
 
 hr {
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
 }
 
 .outer-div {
     margin: 1rem 0;
     max-width: 500px;
+    
 }
 
 .extra-outer-div {
@@ -334,5 +362,6 @@ hr {
 
 .flex-wrap {
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 

@@ -12,54 +12,58 @@
     background-color: #A78BFA;
     color: white;
     border: none;
-    font-weight: bold;
 }
 
 .btn-secondary {
     background-color: #F5F3FF;
     color: #374151;
     border: none;
-    font-weight: bold;
 }
 
 .btn-error {
     background-color: #EF4444;
     color: white;
     border: none;
-    font-weight: bold;
 }
 
 .btn-success {
     background-color: #10B981;
     color: white;
     border: none;
-    font-weight: bold;
+}
+
+.btn-warning {
+    background-color: #FBBF24;
+    color: white;
+    border: none;
 }
 
 .outline-btn-primary {
     border: solid 1px #A78BFA;
     background-color: white;
     color: #A78BFA;
-    font-weight: bold;
 }
 
 .outline-btn-error {
     border: solid 1px #EF4444;
     background-color: white;
     color: #EF4444;
-    font-weight: bold;
 }
 
 .outline-btn-success {
     border: solid 1px #10B981;
     background-color: white;
     color: #10B981;
-    font-weight: bold;
+}
+
+.outline-btn-warning {
+    border: solid 1px #FBBF24;
+    background-color: white;
+    color: #FBBF24;
 }
 
 .icon-btn {
     background-color: #1DA1F2;
     color: white;
     border: none;
-    font-weight: bold;
 }

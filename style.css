@@ -1,29 +1,4 @@
 @import url("/Util/util.css");
-@import url("/Alert/alert.css");
-@import url("/Avatar/avatar.css");
-@import url("/Button/button.css");
-@import url("/Badge/badge.css");
-
-/* Custom Scrollbar */
-/* width */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: var(--badge-border);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--badge-border);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--badge-border);
-}
 
 body {
     border-top: solid 6px var(--primary-color);
@@ -139,6 +114,13 @@ body {
 /* .fab {
     font-size: 1.5rem;
 } */
+
+.comp-list-link {
+    text-decoration: none;
+    /* font-weight: bold; */
+    /* font-size: large; */
+    color: #4B5563;
+}
 
 .link {
     text-decoration: none;
