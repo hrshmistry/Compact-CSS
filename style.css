@@ -23,26 +23,21 @@ body {
     margin: auto;
     max-width: 1200px;
     align-content: center;
-
 }
 
 .nav {
     grid-area: nav;
-    /* border: solid 1px var(--grid-border); */
     padding: 1rem;
-    /* overflow: auto; */
 }
 
 .aside {
     grid-area: aside;
-    /* border: solid 1px var(--grid-border); */
     padding: 0 1rem;
     overflow: auto;
 }
 
 .main {
     grid-area: main;
-    /* border: solid 1px var(--grid-border); */
     padding: 1rem;
     overflow: auto;
 }
@@ -54,30 +49,6 @@ body {
     align-items: center;
 
 }
-
-/* .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-} */
-
-/* .brand-compact {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: center;
-    margin: 100px auto;
-    max-width: 500px;
-    font-size: 10rem;
-} */
-
-/* .brand-home {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 10rem;
-} */
 
 .brand {
     display: flex;
@@ -111,22 +82,14 @@ body {
     color: var(--social-handler);
 }
 
-/* .fab {
-    font-size: 1.5rem;
-} */
-
 .comp-list-link>a {
     text-decoration: none;
-    color: var(--primary-color);
-    /* border: 1px solid var(--primary-color); */
-    /* border-radius: 0.3rem; */
-    /* padding: 0.5rem 7rem 0.5rem 1rem ; */
+    color: var(--primary-color);    ;
 }
 
 .comp-list-link:hover {
     background-color: #F5F3FF;
     border-radius: 0.3rem;
-    color: var(--primary-color);
 }
 
 .link {
@@ -147,8 +110,6 @@ body {
 .comp-list {
     list-style: none;
     display: block;
-    /* flex-direction: column;
-    align-items: flex-start; */
     font-weight: 600;
 }
 
@@ -159,29 +120,9 @@ body {
 
 /* Main */
 .main-block {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    margin: 0 auto;
     max-width: 700px;
-    /* position: relative; */
 }
-
-/* .floating-btn {
-    position: fixed;
-    bottom: 2rem;
-    right: 12rem;
-    width: 60px;
-    height: 60px;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.floating-btn i {
-    font-size: 2.5rem;
-} */
 
 .brand-spell {
     font-weight: 600;
