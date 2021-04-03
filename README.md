@@ -1,2 +1,2 @@
-# comp-lib
+# Compact CSS | Build blazing fast modern Components
  
