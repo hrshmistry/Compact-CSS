@@ -1,0 +1,75 @@
+@import url("/Util/util.css");
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+}
+
+.sm {
+    width: 30px;
+    height: 30px;
+}
+
+.md {
+    width: 50px;
+    height: 50px;
+}
+
+.lg {
+    width: 70px;
+    height: 70px;
+}
+
+.xl {
+    width: 90px;
+    height: 90px;
+}
+
+.xxl {
+    width: 110px;
+    height: 110px;
+}
+
+.avatar-badge {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.5rem;
+    position: relative;
+}
+
+.badge-online {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: solid 2px var(--badge-border);
+    background-color: var(--badge-online);
+    position: absolute;
+    bottom: 0rem;
+    left: 2.7rem;
+}
+
+.badge-dnd {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: solid 2px var(--badge-border);
+    background-color: var(--badge-dnd);
+    position: absolute;
+    bottom: 0rem;
+    left: 2.7rem;
+}
+
+.badge-idle {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: solid 2px var(--badge-border);
+    background-color: var(--badge-idle);
+    position: absolute;
+    bottom: 0rem;
+    left: 2.7rem;
+}
+

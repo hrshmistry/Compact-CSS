@@ -1,0 +1,255 @@
+@import url("/Components/Util/util.css");
+
+body {
+    border-top: solid 6px var(--primary-color);
+}
+
+/* Overall layout of Documentation site */
+.doc-layout {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "nav nav nav"
+        "aside main main"
+        "aside main main"
+        "aside main main"
+        "aside main main"
+    ;
+
+    grid-template-columns: 20% auto;
+    grid-template-rows: 10% auto;
+
+    margin: auto;
+    max-width: 1200px;
+    align-content: center;
+
+}
+
+.nav {
+    grid-area: nav;
+    /* border: solid 1px var(--grid-border); */
+    padding: 1rem;
+    /* overflow: auto; */
+}
+
+.aside {
+    grid-area: aside;
+    /* border: solid 1px var(--grid-border); */
+    padding: 0 1rem;
+    overflow: auto;
+}
+
+.main {
+    grid-area: main;
+    /* border: solid 1px var(--grid-border); */
+    padding: 1rem;
+    overflow: auto;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+} */
+
+/* .brand-compact {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 100px auto;
+    max-width: 500px;
+    font-size: 10rem;
+} */
+
+/* .brand-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10rem;
+} */
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand .fas {
+    font-size: 3.5rem;
+}
+
+.brand-name {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+.list-inline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-inline li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.list-inline .link {
+    color: var(--social-handler);
+}
+
+/* .fab {
+    font-size: 1.5rem;
+} */
+
+.comp-list-link>a {
+    text-decoration: none;
+    color: var(--primary-color);
+    /* border: 1px solid var(--primary-color); */
+    /* border-radius: 0.3rem; */
+    /* padding: 0.5rem 7rem 0.5rem 1rem ; */
+}
+
+.comp-list-link:hover {
+    background-color: #F5F3FF;
+    border-radius: 0.3rem;
+    color: var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: var(--social-handler);
+}
+
+/* Aside */
+.comp {
+    padding: 1rem 0;
+    font-weight: 700;
+    border-bottom: 1px solid var(--aside-hr);
+    margin-bottom: .5rem;
+}
+
+.comp-list {
+    list-style: none;
+    display: block;
+    /* flex-direction: column;
+    align-items: flex-start; */
+    font-weight: 600;
+}
+
+.comp-list>li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+/* Main */
+.main-block {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 700px;
+    /* position: relative; */
+}
+
+/* .floating-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 12rem;
+    width: 60px;
+    height: 60px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-btn i {
+    font-size: 2.5rem;
+} */
+
+.brand-spell {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#installation {
+    height: 726px;
+}
+
+.max-width {
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* index.html page */
+.home-page {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.main-font {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.btn-large {
+    font-size: 2rem;
+    font-weight: 400;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.compact-css {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .doc-layout {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+            "nav"
+            "main"
+        ;
+
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 90%;
+    }
+
+    .main-font {
+        font-size: 2rem;
+    }
+
+    .btn-large {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

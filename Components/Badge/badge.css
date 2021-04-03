@@ -1,0 +1,51 @@
+@import url("/Util/util.css");
+
+.badge {
+    border-radius: 0.2rem;
+    background-color: #EDF2F7;
+    padding: 0.1rem 0.3rem;
+    font-weight: bold;
+}
+
+.badge-success {
+    background-color: #D1FAE5;
+    color: #064E3B;
+}
+
+.badge-removed {
+    background-color: #FEE2E2;
+    color: #7F1D1D;
+}
+
+.badge-new {
+    background-color: #DDD6FE;
+    color: #6D28D9 ;
+}
+
+.outline-badge {
+    border: solid 1px #A78BFA;
+    color: #A78BFA;
+}
+
+.solid-badge {
+    background-color: #A78BFA;
+    border: solid 1px #A78BFA;
+    color: white;
+}
+
+.subtle-badge {
+    background-color: #DDD6FE;
+    color: #6D28D9 ;
+}
+
+.sm-badge {
+    font-size: small;
+}
+
+.md-badge {
+    font-size: medium;
+}
+
+.lg-badge {
+    font-size: large;
+}

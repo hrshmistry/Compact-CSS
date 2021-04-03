@@ -1,0 +1,69 @@
+@import url("/Util/util.css");
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: solid 1px black;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #A78BFA;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #F5F3FF;
+    color: #374151;
+    border: none;
+}
+
+.btn-error {
+    background-color: #EF4444;
+    color: white;
+    border: none;
+}
+
+.btn-success {
+    background-color: #10B981;
+    color: white;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #FBBF24;
+    color: white;
+    border: none;
+}
+
+.outline-btn-primary {
+    border: solid 1px #A78BFA;
+    background-color: white;
+    color: #A78BFA;
+}
+
+.outline-btn-error {
+    border: solid 1px #EF4444;
+    background-color: white;
+    color: #EF4444;
+}
+
+.outline-btn-success {
+    border: solid 1px #10B981;
+    background-color: white;
+    color: #10B981;
+}
+
+.outline-btn-warning {
+    border: solid 1px #FBBF24;
+    background-color: white;
+    color: #FBBF24;
+}
+
+.icon-btn {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+}
