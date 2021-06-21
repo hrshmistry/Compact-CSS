@@ -157,8 +157,8 @@ html {
     padding: 1rem;
     margin: 1rem;
 }
-.docs-gradient {
-    background: linear-gradient( #374151, #A78BFA);
+.linear-gradient {
+    background: linear-gradient(110deg, #374151, #A78BFA);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
