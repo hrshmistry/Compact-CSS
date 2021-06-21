@@ -4,6 +4,10 @@ body {
     border-top: solid 6px var(--primary-color);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Overall layout of Documentation site */
 .doc-layout {
     width: 100%;
@@ -120,8 +124,8 @@ body {
 
 /* Main */
 .main-block {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     max-width: 700px;
 }
@@ -153,10 +157,17 @@ body {
     padding: 1rem;
     margin: 1rem;
 }
-
+.docs-gradient {
+    background: linear-gradient( #374151, #A78BFA);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 .main-font {
     font-weight: 700;
     font-size: 4rem;
+    /* background: linear-gradient( #374151, #A78BFA);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
 }
 
 .btn-large {
