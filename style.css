@@ -46,12 +46,42 @@ html {
     overflow: auto;
 }
 
+.float {
+    position: fixed;
+    bottom: 1rem;
+    right: 0.5rem;
+
+    z-index: 1111;
+}
+
+.float a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    background-color: var(--primary-color);
+
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+
+    text-decoration: none;
+    padding: 0.5rem 0.6rem;
+    margin: 0.2rem;
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.plus {
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
 /* Navigation */
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .brand {
