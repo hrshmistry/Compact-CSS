@@ -1,7 +1,6 @@
 @import url("/Components/Util/util.css");
 
 body {
-    border-top: solid 6px var(--primary-color);
 }
 
 html {
@@ -27,11 +26,15 @@ html {
     margin: auto;
     max-width: 1200px;
     align-content: center;
+
+    overflow-x: hidden;
 }
 
 .nav {
     grid-area: nav;
     padding: 1rem;
+
+    border-top: solid 6px var(--primary-color);
 }
 
 .aside {
